@@ -12,6 +12,7 @@ Name: host
 
 Portainer: 9443
 UptimeKuma: 3001
+Terraria: 7777
 
 
 ## Problems encountered

@@ -7,18 +7,24 @@ Run a small terraria server for friends to be opened 24/7
 ## Location
 
 VM:
-Terraria (100)
-Name: vm1
+Refer to [Docker](Docker.md)
 
 ## Notes
-Running Debian Trixie
-Installed tailscale on VM
-Shared tailscale device with friends to connect to it
-Located on port 7777
-Accessed with the tailscale IP
-Start server file located in /terraria/tModLoader/.start..server.sh
+This has been moved to Docker VM
+Under docker container called 'terraria'
+Edit with docker-compose.yml file
+docker compose up -d
+docker logs -f terria
+
+Tailscale still used to connect but friends are connected to my tailscale network
+This required ACL rules to be setup, restricting them from accessing things they shouldn't.
+
 
 ## Problems encountered
+
+After switching to docker container, presented with selecting an option but struggling to select any.
+    Solved, forgot to add the .wld at the end of the world name in the docker compose file
+
 
 Modded terraria must have all server-side mods installed
 Installed mods must have the same mods as the mods listed in the enabled file.
