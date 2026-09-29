@@ -13,8 +13,9 @@ Refer to [Docker](Docker.md)
 This has been moved to Docker VM
 Under docker container called 'terraria'
 Edit with docker-compose.yml file
-docker compose up -d
-docker logs -f terria
+docker compose up -d - Rebuilds the container updating it according to the compose file
+docker logs -f terria - Provides live logs of the server
+Refer to https://github.com/PassiveLemon/terraria-docker for anything to do with this container
 
 Tailscale still used to connect but friends are connected to my tailscale network
 This required ACL rules to be setup, restricting them from accessing things they shouldn't.

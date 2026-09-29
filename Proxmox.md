@@ -26,3 +26,7 @@ When setting up users on VMs, sometimes don't have sudo permissions when needed.
 Proxmox was seen as 'unsecure' when opening
  - Required cerificates
  -- Provided by tailscale, providing HTTPS to the system.
+
+ ## Services
+ [Docker Services](Services/Docker.md)
+ [Terraria Server](Services/Terraria.md)

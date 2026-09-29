@@ -5,6 +5,4 @@ This is my personal project to homelabbing, trying to learn skills as I go along
 
 ## Documentation links
 - [Hardware](Hardware.md)
-- [Network](Network.md)
 - [Proxmox](Proxmox.md)
-- [Storage](Storage.md)
