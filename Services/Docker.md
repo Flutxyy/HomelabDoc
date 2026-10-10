@@ -24,4 +24,5 @@ Found out watchtower was unmaintained but there was another actively maintained 
 
 UptimeKuma can't connect to discord to notify
     Solved by restarting it
-        Change the config to autorestart every day NOT DONE
+        Change the config to autorestart every day
+    Solved after switching to a alternative maintained fork of uptimeKuma
